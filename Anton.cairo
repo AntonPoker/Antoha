@@ -4,7 +4,7 @@ mod HelloStarknet {
     use starknet::ContractAddress;
 // cairo love
 // sosa 
-    #[event]
+    #[event] //arbat 
     fn Hello(from: ContractAddress, value: felt252) {}
 
 
