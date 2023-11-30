@@ -6,7 +6,7 @@ mod HelloStarknet {
 // sosa 
     #[event] //arbat 
     fn Hello(from: ContractAddress, value: felt252) {}
-
+// starknet beliver 
 
     #[external]
     fn Say_Hello(message: felt252) {
