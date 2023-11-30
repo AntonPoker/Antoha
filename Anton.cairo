@@ -3,7 +3,7 @@ mod HelloStarknet {
     use starknet::get_caller_address;
     use starknet::ContractAddress;
 // cairo love // PopeSmoke 
-// sosa 
+// sosa // Boris
     #[event] //arbat 
     fn Hello(from: ContractAddress, value: felt252) {}
 // starknet beliver 
