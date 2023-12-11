@@ -8,7 +8,7 @@ mod HelloStarknet {
     fn Hello(from: ContractAddress, value: felt252) {}
 // starknet beliver 
 // power of red 
-    #[external] // iwent 
+    #[external] // iwent //zavarka
     fn Say_Hello(message: felt252) {
         let caller = get_caller_address();
         Hello(caller, message);
